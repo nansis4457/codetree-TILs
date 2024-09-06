@@ -1,4 +1,4 @@
-n = int(input())
+n = str(input())
 
 if n == 'S': 
     print('Superior')
@@ -8,7 +8,7 @@ elif n == 'B':
     print('Good')
 elif n == 'C':
     print('Usually')
-elif n == 'D'
+elif n == 'D':
     print('Effort')
 else:
     print('Failure')

@@ -4,6 +4,8 @@ if a > b:
     print('0', end =" ")
 elif a < b:
     print('1', end =" ")
+else:
+    print('0', end =" ")
 
 
 

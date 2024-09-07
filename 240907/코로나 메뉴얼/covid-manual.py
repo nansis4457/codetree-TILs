@@ -38,7 +38,7 @@ else:
     C = 'D'
 
 
-if A == 'A' and (B == 'A' or C == 'A'):
+if A == 'A' and ((B == 'A' or C == 'A') or (B == 'A' and C == 'A')):
     print('E')
 else:
     print('N')

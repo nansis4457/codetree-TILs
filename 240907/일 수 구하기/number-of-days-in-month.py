@@ -5,7 +5,7 @@ if n % 2 == 1:
     else:
         print('31')    
 elif n != 2 and (n % 2 == 0):
-    if n == 8:
+    if 8 <= n <= 12:
         print('31')
     else:
         print('30')

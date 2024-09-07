@@ -9,10 +9,3 @@ elif (a_1 < 19 or a_2 == 'W') or (b_1 < 19 or b_2 == 'W'):
     print('0')
 else:
     print(0)
-
-
-
-(a_2 == 'M' or a_2 == 'W')) or  (b_1 >= 19 and (b_2 == 'M' or b_2 == 'W')):
-    print('1')
-else:
-    print('0')

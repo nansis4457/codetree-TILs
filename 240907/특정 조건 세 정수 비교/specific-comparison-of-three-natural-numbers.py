@@ -1,14 +1,12 @@
 a,b,c = map(int,input().split(' '))
-n = []
 
+m = min(a,b,c)
 
-if a < b:
-    if a < c:
-        print('0',end=' ')
-    elif a == c:
+if a == m:
         print('1',end=' ')
-    else:
-        print('0',end=' ')
+else:
+    print('0',end=' ')
+
 
 if a == b == c:
     print('1',end=' ')

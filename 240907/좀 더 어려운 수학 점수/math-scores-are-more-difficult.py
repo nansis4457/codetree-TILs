@@ -2,9 +2,9 @@ a_1,a_2 = map(int,input().split())
 b_1,b_2 = map(int,input().split())
 
 
-if a_2 < b_2:
+if a_1 < b_1:
     print('B')
-elif a_1 > b_1:
+elif a_2 > b_2:
     print('A')
 else:
-    print('B')
+    print('A')

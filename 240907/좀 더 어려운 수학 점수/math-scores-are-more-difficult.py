@@ -7,4 +7,4 @@ if a_1 < b_1:
 elif a_2 > b_2:
     print('A')
 else:
-    print('B')
+    print('A')

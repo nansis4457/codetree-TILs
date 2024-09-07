@@ -53,3 +53,5 @@ elif C == 'A':
         print('E')
     else:
         print('N')
+else:
+    print('N')

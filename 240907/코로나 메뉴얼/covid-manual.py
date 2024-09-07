@@ -6,6 +6,7 @@ a_2,b_2,c_2 = int(a_2),int(b_2),int(c_2)
 A = '' 
 B = ''
 C = ''
+
 if a_1 == 'Y':
     if a_2 >= 37:
         A = 'A'
@@ -37,7 +38,7 @@ else:
     C = 'D'
 
 
-if A == 'A' and ((B == 'A' and C == 'A') or (B == 'A' or C == 'A')):
+if A == 'A' and (B == 'A' or C == 'A'):
     print('E')
 else:
     print('N')

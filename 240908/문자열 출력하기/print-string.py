@@ -1,4 +1,4 @@
-n = input()
-n_len = len(n)
-for i in range(n_len):
-    print(n)
+n = int(input())
+
+for i in range(n):
+    print('LeebrosCode')

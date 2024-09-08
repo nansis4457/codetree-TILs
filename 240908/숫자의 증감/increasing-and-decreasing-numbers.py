@@ -6,5 +6,5 @@ if c == 'A':
         i += 1 
 elif c == 'D':
     for j in range(n,1):
-        print(j, end='')
+        print(j, end=' ')
         j += -1

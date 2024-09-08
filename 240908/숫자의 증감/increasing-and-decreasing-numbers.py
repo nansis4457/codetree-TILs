@@ -5,6 +5,6 @@ if c == 'A':
         print(i,end=' ')
         i += 1 
 elif c == 'D':
-    for j in range(n,1,-1):
+    for j in range(n,0,-1):
         print(j, end=' ')
         j += -1

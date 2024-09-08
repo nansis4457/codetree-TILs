@@ -1,2 +1,2 @@
 for i in range(8):
-    print("A", end=' ')
+    print("y", end=' ')

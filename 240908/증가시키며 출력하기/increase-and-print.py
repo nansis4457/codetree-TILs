@@ -1,0 +1,1 @@
+for i in range(5,18,2)

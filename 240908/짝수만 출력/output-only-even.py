@@ -1,4 +1,5 @@
 a, b = map(int,input().split())
 k = a
-while k *2 <= b:
-    print(k*2,end=' ')
+while k <= b:
+    print(k,end=' ') 
+    k += 2

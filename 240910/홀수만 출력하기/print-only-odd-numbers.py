@@ -1,5 +1,5 @@
 n = int(input())
-for i in range(n):
-    n = int(input())
-    if n % 2 == 1 and n % 3 == 0:
-        print(n)
+for k in range(n):
+    k = int(input())
+    if k % 2 == 1 and k % 3 == 0:
+        print(k)

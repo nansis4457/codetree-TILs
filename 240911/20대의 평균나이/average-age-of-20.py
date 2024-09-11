@@ -9,6 +9,4 @@ while True:
     elif n >= 30:
         break
 
-# 루프가 종료된 후 평균값 출력
-if cnt > 0:
-    print(f'{c / cnt:.2f}')
+print(f'{c / cnt:.2f}')

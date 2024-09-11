@@ -8,4 +8,5 @@ while True:
         continue
     else:
         break
-        print(f'{c / cnt:.2f}')
+
+print(f'{c / cnt:.2f}')

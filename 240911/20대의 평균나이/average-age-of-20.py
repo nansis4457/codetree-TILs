@@ -6,7 +6,6 @@ while True:
         c += n
         cnt += 1
         continue
-    elif n >= 30:
+    else:
         break
-
 print(f'{c / cnt:.2f}')

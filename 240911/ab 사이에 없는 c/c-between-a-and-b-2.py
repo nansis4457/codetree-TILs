@@ -1,12 +1,19 @@
-a, b, c = map(int, input().split())
+# 변수 선언 및 입력
+inp = input()
+arr = inp.split()
+a = int(arr[0])
+b = int(arr[1])
+c = int(arr[2])
+satisfied = True
 
-morphy = True  # Assume all numbers are divisible initially
 for i in range(a, b + 1):
-    if i % c != 0:
-        morphy = False
-        break  # Break the loop as soon as a number is not divisible by c
+	# a에서 b사이의 값 중 c의 배수가 있는지 확인합니다.
+	if i % c == 0:
+		satisfied = False
 
-if morphy:
-    print("NO")  # All numbers in the range are divisible by c
+
+# 출력
+if satisfied == True:
+	print("YES")
 else:
-    print("YES")
+	print("NO")

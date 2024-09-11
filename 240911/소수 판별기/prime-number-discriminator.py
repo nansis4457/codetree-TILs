@@ -9,6 +9,6 @@ for i in range(2,n):
 
 # 출력
 if satisfied == True:
-	print("p")
+	print("P")
 else:
-	print("c")
+	print("C")

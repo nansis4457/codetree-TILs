@@ -2,7 +2,7 @@ c = 0
 cnt = 0
 while True:
     n = int(input())
-    if n < 30:
+    if n < 30 and n >= 20 :
         c += n
         cnt += 1
         continue

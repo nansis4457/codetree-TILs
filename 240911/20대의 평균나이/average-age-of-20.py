@@ -9,4 +9,8 @@ while True:
     else:
         break
 
-print(f'{c / cnt:.2f}')
+# cnt가 0이 아닌 경우에만 나눗셈을 수행
+if cnt > 0:
+    print(f'{c / cnt:.2f}')
+else:
+    print("입력된 값이 없습니다.")

@@ -7,7 +7,6 @@ while True:
         cnt += 1
         continue
     elif n >= 30:
-        cnt += 1
         break
 
 # 루프가 종료된 후 평균값 출력

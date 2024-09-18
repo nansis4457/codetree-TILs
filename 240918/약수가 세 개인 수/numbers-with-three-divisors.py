@@ -1,17 +1,11 @@
-inp = input()
-arr = inp.split()
-start, end = int(arr[0]), int(arr[1])
-ans = 0
-tr = 0
-for curr_num in range(start, end + 1):
-    # Step 1:
-    divisor_sum = 0
-    for divisor in range(1, curr_num):
-        if curr_num % divisor == 0:
-            ans += 1
-
-    # Case 1:
-    if ans == 3:
-        tr += 1
-
-print(tr)
+a,b = map(int,input().split())
+cnnt = 0
+cnnnt = 0
+for i in range(a,b+1):  # 약수가 3개인지 체크하려는 수 i (a ~ b)
+    cnnt = 0
+    for j in range(1,i+1): # i의 약수가 될 j를 찾기위한 for문
+        if i % j == 0:  # j가 i의 약수인지 체크
+            cnnt += 1
+    if cnnt == 3:
+        cnnnt += 1
+print(cnnnt)
